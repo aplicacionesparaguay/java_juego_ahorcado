@@ -20,7 +20,7 @@ public class Ahorcado {
 
         // Estructura de control interactiva (Bucle)
         while (!palabraAdivinada && intentos < intentosMaximos) {
-            System.out.println("Palabra a adivinar: " + String.valueOf(letrasAdivinadas));
+            System.out.println("Palabra a adivinar: " + String.valueOf(letrasAdivinadas) + " (" + palabraSecreta.length() + " lertras)");
             // Esto se usa cuando tenemos una palabra de chars
             System.out.println("Intuduce una letra, por favor");
 
